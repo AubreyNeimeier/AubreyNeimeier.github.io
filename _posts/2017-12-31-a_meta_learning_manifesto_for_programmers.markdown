@@ -12,7 +12,7 @@ While I’ve been working my way through the curriculum, I’ve kept notes on th
 
 ## Meta Learning Strategies, for Programmers
 ### 1.	Write pseudo code. 
-Let me say it louder, for the people in the back. WRITE PSUEDO CODE. Pseudo code is an explanation of a program, or an algorithm, in layman’s terms. This is not code that a machine will read, but rather it is intended to provide an outline of the specific instructions that will later, be written in machine code. Let me show you how helpful pseudo code is for writing appropriate logic, the first time around, with an example from Avi Flobaum’s, “Hash Iteration Lab”. 
+Let me say it louder, for the people in the back. WRITE PSEUDO CODE. Pseudo code is an explanation of a program, or an algorithm, in layman’s terms. This is not code that a machine will read, but rather it is intended to provide an outline of the specific instructions that will later, be written in machine code. Let me show you how helpful pseudo code is for writing appropriate logic, the first time around, with an example from Avi Flobaum’s, “Hash Iteration Lab”. 
 
 Problem Statement: “Build a method key_for_min_value that accepts an argument of a hash. This method should iterate over the hash and return the key (not the value!) that points to the smallest value of the set. If the method is called and passed an argument of an empty hash, it should return nil.”
 
