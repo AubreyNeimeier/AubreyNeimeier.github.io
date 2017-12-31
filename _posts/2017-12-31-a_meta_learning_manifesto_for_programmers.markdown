@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A Meta Learning Manifesto, for Programmers. "
-date:       2017-12-31 23:04:55 +0000
+date:       2017-12-31 18:04:56 -0500
 permalink:  a_meta_learning_manifesto_for_programmers
 ---
 
@@ -19,18 +19,31 @@ Problem Statement: “Build a method key_for_min_value that accepts an argument 
 Pseudo Code Solution: 
 
 Define the method with one argument (a hash)
+
 Declare variable for lowest_value, and initialize to nil
+
 Declare variable for lowest_key (what we want to return) and initialize to nil
+
 If hash given is empty
+
 	Return nil
+	
 Iterate over the hash with an enumerable
+
 If the value of the key/value pair is lower value than (lowest_value)
+
 	Assign key to lowest_key 
+	
 	And assign the value to lowest_value (we put the next lowest value in here, it will keep re-assigning to a lower value if there is one! ) 
+	
 End if statement
+
 End enumerable
-Return the lowest_key 
+
+Return the lowest_key
+
 End method
+
 
 My Machine Code Solution:
 ```
