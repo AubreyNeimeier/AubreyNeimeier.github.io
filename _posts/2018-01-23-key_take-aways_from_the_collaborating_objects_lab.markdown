@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Key take-aways from the Collaborating Objects Lab"
-date:       2018-01-23 13:10:36 +0000
+date:       2018-01-23 08:10:37 -0500
 permalink:  key_take-aways_from_the_collaborating_objects_lab
 ---
 
