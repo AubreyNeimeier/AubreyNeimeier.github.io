@@ -49,9 +49,9 @@ end
  I count the times the uniq genre occurs by iterating over @@genres.uniq. Then I build a hash key value pair with the unique genre as the key, and the count as the value. 
  
  Avi's solution is a bit different and includes an important syntax pattern that has proved to be the eloquent solution to MANY other labs. 
-###  Avi's Solution
+###  Avi's Solution: 
+ ```
  
- ``` 
  def self.genre_count
    genre_count = {}
 	 @@genres.each do |genre|
@@ -66,29 +66,39 @@ end
 	end
 			
 	``` 
+	
 	What does the following line mean? 
-	```
-	if genre[count]
+	
 	```
 	
-	It seems too open ended and unfinished to be an if statement condition! The syntax is a bit strange but the above line translates to: "If genre_count[genre] exists (aka if genre_count for the key [genre] exists) then complete the following. " 
+	if genre[count]
+	
+	```
+	
+It seems too open ended and unfinished to be an if statement condition! The syntax is a bit strange but the above line translates to: "If genre_count[genre] exists (aka if genre_count for the key [genre] exists) then complete the following. " 
 	
 so all together the logic reads:
-``` if genre_count of key "genre" exists
-         then increment it's count (the value of the key value pair) by one. 
-			else (if genre_count of key "genre" is nil, or falsey, aka it doesn't exist)
-			   then CREATE the value/key pair for that genre and set it to one.
-				```
+
+``` 
+if genre_count of key "genre" exists
+    then increment it's count (the value of the key value pair) by one. 
+else (if genre_count of key "genre" is nil, or falsey, aka it doesn't exist)
+		then CREATE the value/key pair for that genre and set it to one.
+		
+```
 				
-				This is a common pattern which extremely simplified looks like: 
-				
-				if <thing>       //if thing exists
-				   do something 
-				else                // if it doesn't exist
-				   do something else
-					 
-				Thanks for reading and best of luck with your OO Ruby! 
-					 
+This is a common pattern which extremely simplified looks like: 
+```
+
+		if <thing>       //if thing exists
+			 do something 
+		else                // if it doesn't exist
+			 do something else
+		```
+		
+			 Thanks for reading and best of luck with your OO Ruby! 
+
+
 					 
 				 
 				 
