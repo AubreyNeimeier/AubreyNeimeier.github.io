@@ -50,9 +50,9 @@ end
  
  Avi's solution is a bit different and includes an important syntax pattern that has proved to be the eloquent solution to MANY other labs. 
 ###  Avi's Solution: 
- ```
  
- def self.genre_count
+ ```
+def self.genre_count
    genre_count = {}
 	 @@genres.each do |genre|
 	    if genre_count[genre] 
@@ -64,17 +64,13 @@ end
 	end
 	genre_count
 	end
+```
 			
-	``` 
 	
-	What does the following line mean? 
-	
-	```
-	
-	if genre[count]
-	
-	```
-	
+What does the following line mean? 
+
+`if genre[count]`
+
 It seems too open ended and unfinished to be an if statement condition! The syntax is a bit strange but the above line translates to: "If genre_count[genre] exists (aka if genre_count for the key [genre] exists) then complete the following. " 
 	
 so all together the logic reads:
