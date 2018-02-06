@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Class Variables and Methods Lab"
-date:       2018-02-06 19:27:41 +0000
+date:       2018-02-06 14:27:42 -0500
 permalink:  class_variables_and_methods_lab
 ---
 
