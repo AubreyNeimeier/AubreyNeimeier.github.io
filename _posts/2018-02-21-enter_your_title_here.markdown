@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Enter your title here"
-date:       2018-02-21 23:39:57 +0000
+title:      "Easy_Vegan CLI Gem "
+date:       2018-02-21 18:39:58 -0500
 permalink:  enter_your_title_here
 ---
 
