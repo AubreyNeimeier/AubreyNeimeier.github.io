@@ -15,7 +15,9 @@ The web app itself is doing a couple cool things under the hood. It encrypts the
 
 I found this project to be very straightforward and easy. The hardest part in face, was coming up with the idea. I knew I wanted an app that solved real world problems as I've noticed some of the best and most recognized ruby gems solve problems. 
 
-Git hub repo: [Git hub repo](https://github.com/AubreyNeimeier/Refactor-Log-Sinatra-CMS-App)
-Youtube Video Demo [Youtube Video Demo](https://youtu.be/3-mfMgoI2uk)
+
+[Git hub repo](https://github.com/AubreyNeimeier/Refactor-Log-Sinatra-CMS-App)
+
+[Youtube Video Demo](https://youtu.be/3-mfMgoI2uk)
 
 
