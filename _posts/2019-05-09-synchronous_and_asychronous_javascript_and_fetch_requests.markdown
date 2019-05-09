@@ -14,7 +14,7 @@ Synchronous - code is executed in sequence, blocking each subsequent statement f
 
 Asynchronous - code executes on multiple threads, meaning many tasks can be completed at once. The order of invocation is sequential, but each task is non blocking so as soon as one tasks begins, the next can start, reducing wait time for the user. 
 
-Web requests in JavaScript are Asynchronous! When we request data from an API, the code following will start running BEFORE the web requests resolves. When the web request resolves we say the promise has resolved. Read more about promises here. This can pose a problem because often we want to manipulate or send the received data in the following code, and if the code is processed before we receive the data, we will run into serious problems! For example, 
+Web requests in JavaScript are Asynchronous! When we request data from an API, the code following will start running BEFORE the web requests resolves. When the web request resolves we say the promise has resolved. Read more about promises[ here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). This can pose a problem because often we want to manipulate or send the received data in the following code, and if the code is processed before we receive the data, we will run into serious problems! For example, 
 
 ```
 function getDogs(){
