@@ -97,6 +97,13 @@ export const createEntry = entry => {
 
 
 The first letter is easy. We trigger handleSubmitEntry when we click the submit button. The letter A prints to the screen. Then we invoke createEntry and will see C printed. Then we would expect to see D printed next right? However the fetch request is asychrnous and is taking some time.... Nothing in the .then() functions will we executed until AFTER the fetch request completely resolves. Since this is taking some time, the processor moves on and goes BACK into handleSubmitEntry, where we print the letter B. We reset the form to have a blank feild and by this time, the fetch request has resolved, so we pick up where we left off there at .then(response => response.json())...  within the fetch request. The E is never printed because it is written after a return statement! 
+
+
+Helpful Resources on this topic
+1. [Asynchronous JavaScript Intro](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
+2.  [Asynch](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Concepts)
+ 
+
  
 
 
