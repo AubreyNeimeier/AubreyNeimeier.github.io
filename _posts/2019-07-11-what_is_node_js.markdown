@@ -1,11 +1,11 @@
 ---
 layout: post
 title:      "What is Node.js"
-date:       2019-07-11 20:12:04 +0000
+date:       2019-07-11 16:12:04 -0400
 permalink:  what_is_node_js
 ---
 
-According to LearnCodeAcademy’s video on Node JS, the following is a brief intro to Node.js. The creators of Node, took JavaScript, which is normally confined to a web browser, and they allowed it to run on your computer. A JavaScript engine for google chrome can now run on your machine. JavaScript in this new environment allows us to do things like;  listen for network traffic, access files on our computer, listen to HTTP requests your computer receives and send back a file. 
+According to [LearnCodeAcademy’s video on Node JS](https://www.youtube.com/watch?v=pU9Q6oiQNd0), the following is a brief intro to Node.js. The creators of Node, took JavaScript, which is normally confined to a web browser, and they allowed it to run on your computer. A JavaScript engine for google chrome can now run on your machine. JavaScript in this new environment allows us to do things like;  listen for network traffic, access files on our computer, listen to HTTP requests your computer receives and send back a file. 
 
 Basically anything you could do in PHP or RoR you can now do in JS, through Node.js
 ## Two main pillars of use
